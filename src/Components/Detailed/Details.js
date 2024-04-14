@@ -134,7 +134,7 @@ async function PhonePepaymentButton(amount){
          
          <StyleButtons variant='contained' style={{background:'#ff9f00', marginRight:10}}
            onClick={()=>{handleAddCart(detailedProduts)}}><ShoppingCartIcon/>Add to Cart</StyleButtons>
-          <StyleButtons variant="contained" style={{background:'#fb541b'}} onClick={()=>{PhonePepaymentButton(100)}}><FlashOnIcon/>Buy Now</StyleButtons>
+          <StyleButtons variant="contained" style={{background:'#fb541b'}} onClick={()=>{PhonePepaymentButton(350)}}><FlashOnIcon/>Buy Now</StyleButtons>
           
           </Box>
         </LeftContainer>
@@ -146,11 +146,11 @@ async function PhonePepaymentButton(amount){
   8 Ratings & 1 Reviews
   <Box component="span"> <img src={fassured} style={{width:77, marginLeft:20}}  /> </Box>
  </Typography>
- {/* <Typography>
+  {/* <Typography>
  <Box component='span' style={{fontSize:28}} >₹{detailedProduts.price.cost} </Box>&nbsp;&nbsp;&nbsp;
   <Box component='span' style={{ color:"#878787"}}><strike>₹{detailedProduts.price.mrp}</strike></Box>&nbsp;&nbsp;&nbsp;
   <Box component='span' style={{ color:"#388E3C"}}>{detailedProduts.price.discount} off</Box>
- </Typography> */}
+ </Typography>  */}
   <Typography>Available Offers</Typography>
  <SmallText>
   <Typography> <StyledBadge/> Get extra 20% off up to ₹50 on 1 item(s) T&C</Typography>
