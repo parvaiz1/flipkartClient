@@ -1,0 +1,18 @@
+
+.wrapperButtons{
+    display: flex;
+}
+
+@media screen and (max-width:850px) {
+    .wrapperButtons{
+        display: block;
+    }
+    .wrapperButtons >p {
+        padding-top :10px;
+        padding-right :25px
+    }
+    .wrapperButtons > div {
+        padding-top :20px;
+        /* padding-right :30px */
+    }
+}

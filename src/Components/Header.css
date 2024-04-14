@@ -1,0 +1,47 @@
+.header {
+    /* background-color: red; */
+}
+
+.menuicon {
+    color: white;
+    display: none;
+}
+
+.search {
+    /* display: none; */
+    background: white;
+    margin: 20px;
+    width: 38%;
+    display: flex;
+    padding-left: 20px;
+}
+.MobileSearch{
+    display: none;
+}
+
+@media screen and (max-width:850px) {
+    .header {
+        display: none;
+    }
+
+    .menuicon {
+        color: white;
+        display: block;
+        margin-left: 33%;
+    }
+    .search {
+        display: none;
+    }
+
+    .MobileSearch {
+        /* display: none; */
+        background:#F2F2F2;
+        margin-top: 58px;
+        margin-left: 8%;
+        width: 78%;
+        display: flex;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+
+}

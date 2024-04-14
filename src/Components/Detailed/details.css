@@ -1,0 +1,28 @@
+.component{
+    display:flex;
+margin-top:65px;
+}
+
+@media screen and (max-width:790px) {
+.component{
+display:block;
+/* white-space: nowrap; */
+}
+.image{
+    width:55%
+}
+    
+}
+@media screen and (max-width:600px) {
+    .image{
+        width:75%
+    }
+}
+@media screen and (max-width:450px) {
+    .image{
+        width:92%
+    
+}
+}
+
+
